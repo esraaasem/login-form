@@ -1,0 +1,55 @@
+body 
+{
+    background-image: linear-gradient(to right,rgb(251, 239, 252),rgb(174, 62, 202));
+    font-family: 'Amiri', serif;
+    font-family: 'Titillium Web', sans-serif;
+    -webkit-transition: all 4s ease;
+    -moz-transition: all 4s ease;
+    -ms-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    transition: all 4s ease;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 120px;
+}
+fieldset
+{
+    padding: 60px;
+    width:320px;
+   border-color: white;
+    border-radius: 50px ;
+}
+input 
+{
+    border-radius: 30px;
+}
+.label
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.labelcheck
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.btn
+{
+    width: 200px;
+    height:30px;
+    margin-left: 70px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: rgb(189, 132, 203);
+}
+
+
